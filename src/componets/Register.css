@@ -1,0 +1,85 @@
+.form {
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.div-group{
+    padding: 8px;
+    display: flex;
+    gap:0.5em;
+    align-items: center;
+    width: 100%;
+}
+
+.form h1{
+    
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.label {
+    font-size: medium;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.input {
+    
+    width: 60%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    /*box-sizing: border-box;  Garante que o padding não aumente a largura do input */
+}
+
+.inputSubmit {
+    width: 30%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.inputSubmit:hover {
+    background-color: #0056b3;
+}
+
+.btt-group{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 0.5em;
+}
+
+.warning-message {
+    background-color: #ffc107; /* Cor de fundo amarela */
+    color: #333; /* Cor do texto */
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    border: 1px solid #f0ad4e; /* Cor da borda amarela */
+    font-size: 14px;
+}
+.success-message {
+    position: absolute;
+    top: 40%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    background-color: #26a17c; /* Cor de fundo amarela */
+    color: #333; /* Cor do texto */
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    border: 1px solid #26a17c; 
+    font-size: 14px;
+}

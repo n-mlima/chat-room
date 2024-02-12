@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding:0 ;
+    font-family:sans-serif,"verdana";
+}
+
+html{
+    font-size: 62.5%;
+}
+
+@media(max-width:1024px){
+    html{
+        font-size: 60%;
+    }
+    
+}
+@media(max-width:768px){
+    html{
+        font-size: 50%;
+    }
+   
+
+    
+
+}
