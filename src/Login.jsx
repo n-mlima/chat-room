@@ -3,7 +3,7 @@ import { BiHide, BiShow } from "react-icons/bi";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
 
-const API = "http://api-chat-room.vercel.app";
+const API = "https://api-chat-room.vercel.app";
 
 const Login = ({ setActiveRoute, setLoginSuccess, setProfile }) => {
   const [loading, setLoading] = useState(false);
