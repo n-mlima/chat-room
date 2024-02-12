@@ -5,7 +5,7 @@ import { v4 as uuidv4 } from "uuid";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
 
-const API = "http://api-chat-room.vercel.app";
+const API = "https://api-chat-room.vercel.app";
 
 const Register = ({ setActiveRoute }) => {
   const [person, setPerson] = useState("");
