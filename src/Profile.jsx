@@ -74,7 +74,7 @@ const Profile = ({ setActiveRoute, profile, setSocket, setDescriptionRoom, setRo
   }
 
   const joinRoom = async (roomName, codigo, descriptionRoom) => {
-    const socket = await io("http://localhost:3000");
+    const socket = await io("https://server-chat-room.vercel.app");
     setCodigoInvite(codigo);
 
     if (codigo === "") {
@@ -92,7 +92,7 @@ const Profile = ({ setActiveRoute, profile, setSocket, setDescriptionRoom, setRo
   };
 
   const joinMyRoom = async (roomName) => {
-    const socket = await io("http://https://server-chat-room.vercel.app");
+    const socket = await io("http://server-chat-room.vercel.app");
     setSocket(socket);
     socket.emit("set_user", profile.username);
     socket.emit("listRoom", room);
