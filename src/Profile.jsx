@@ -10,7 +10,7 @@ import { useNavigate } from "react-router-dom";
 import InputMask from "react-input-mask";
 import axios from "axios";
 
-const API = "http://api-chat-room.vercel.app";
+const API = "https://api-chat-room.vercel.app";
 
 const Profile = ({ setActiveRoute, profile, setSocket, setDescriptionRoom, setRoomName }) => {
   const appElement = document.getElementById("root");
